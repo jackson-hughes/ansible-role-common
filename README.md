@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jhughes01/common.svg?branch=master)](https://travis-ci.org/jhughes01/common)
+[![Build Status](https://travis-ci.org/jhughes01/ansible-role-common.svg?branch=master)](https://travis-ci.org/jhughes01/ansible-role-common)
 
 Ansible Role: Common
 =========
