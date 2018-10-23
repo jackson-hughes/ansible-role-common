@@ -1,16 +1,15 @@
----
 sudo: required
 language: python
 cache: pip
 services:
-  - docker
+- docker
 before_install:
-  - sudo apt-get -qq update
+- sudo apt-get -qq update
 install:
-  - pip install molecule
-  - pip install docker
+- pip install molecule
+- pip install docker
 script:
-  - molecule --debug test
+- molecule test
 notifications:
   slack:
-    secure: bAjp6O1XLyxs6WgYTBrQlhIQanNSYA/cPNCeJVt8znwvLDHRbOtR2P1ZNQZTsLhiu5DNHp59+IVwMuaBt3obITXwkzzI67nVIwvlVftskEJPFYj9ImugZmQu9fUZqhO6g1RWEiDvQQ68IBiNGArwzComk0ctDq6gY6fuwq6m6UNwXvesX2mzxQ0W9Yl+g9u8TOTPwTOA9Qj5u0kh/Isg3RUxj2ypShNmgY2L+9/jn0rOO1bU7vseHrZ/mURA27FccoHbOcqoUDylUGbu57FBIUrldvQqZoAe2ZYm/f5XNRDzQvZYjrdlRXqreuUwqbhInNd043qr32QIRj6FLdSu7biSMOjdyp6HlTZtvIv8/kqNECO8PwnhC0L+5X5yzapVOm+9TQs5zzcVN7OPNY2XmxcMC97AwltrVGJwhrSwS8ZTxSpSU459tHFLtQDEJSLLzhlir5Faw/QAxYzxS/mzX7+UvkyszP9Cz0+F0UeHzCl3Xw+t1gtdcgjtgGquroPbtmGVtmi8EBzrabpoDzqHPHJXAduqEJafdRQiCQEB5/h1fOKce7rkfwJs+2bk4DYBO4X2maNignp5bqUn2ivlEhMPqKq18/3If2YLWaVexxBhHLxF4KoHi7dheF/TB7OGk22bdxlTq3+a32FQXFCA1JnT3Wo09v8dx0hd78MryOo=
+    secure: MPWklUfTynSvFiQZUmsy49s5xgU4fRyQ4Amz9EU1GXHU4hfGkx7uHS735fOxGY8q1UTTI8Btu03d8U6jlT0/KzFlVbwTMWO4XyIMHHJG5TrNXJMbkKHSmkjPy+jIrCbCsriDhHAVM9A7zFGoZNPdmjtDTCGT/pzBjG8mkrnnB0660greDhj+5h+r5AqXCirpfmUzUgq00XC2lQ+kDcj17cwmsPGjKy3bOkIO2BPbRkkSmeseruZKGgubEMecQGK0U7h4+PjW5RmP/674jscW6k6ryuRlo1GdRqNn8Fdkz+W7JdaOEVqBfNTI8CnO0YFlxITjCSYtYgVwGpOvIDPwgT6NkB/JlzjZmm09dEuvmct4e4kUI9r+LU8GNxXZ4SBEmEX6mqAbcS+NermDMGrlPftso8dybIHbITtfO7ednGCx7lPbgUtx0Z9DPvJSANcfhtA4VoXCFc+ofPAQ2217CTSPASm/3rKHxIqg+Ub6jnBgFv5lXhXjedUCl2MWEVfkSGfCHP4+YcFhHSMCz5PFB4ve1Uv1wvbA4m/DqgKc5ioayGSY7cn9P7ntEZBk3bG7OGDO5yGrlIOTFuHl3T+B+NM501efXzzRZS5McObLI5xoDKPpygr9+igteZAnB58VGXSZMvS1I5fxxBfN3+tLMFu8NwKWtlnUT6rvNFImh2Q=
