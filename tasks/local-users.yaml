@@ -31,7 +31,7 @@
 #   authorized_key:
 #     user: nbedford
 #     state: present
-#     key: 
+#     key:
 
 - name: Add nbedford to sudoers
   copy:
@@ -40,4 +40,3 @@
     owner: root
     group: root
     mode: 0644
-
