@@ -21,7 +21,7 @@
     mode: 0644
 
 - name: Add Nathalie's user account
-  user: 
+  user:
     name: nbedford
     shell: /bin/bash
     groups: wheel
@@ -40,3 +40,4 @@
     owner: root
     group: root
     mode: 0644
+
