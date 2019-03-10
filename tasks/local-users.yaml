@@ -27,11 +27,11 @@
     groups: wheel
     append: yes
 
-# - name: Add SSH key for Nathalie
-#   authorized_key:
-#     user: nbedford
-#     state: present
-#     key:
+- name: Add SSH key for Nathalie
+  authorized_key:
+    user: nbedford
+    state: present
+    key: https://github.com/nathalie-bedford.keys
 
 - name: Add nbedford to sudoers
   copy:
